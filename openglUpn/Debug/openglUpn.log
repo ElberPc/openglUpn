@@ -1,0 +1,17 @@
+﻿Compilación iniciada a las 17/10/2021 09:57:p. m..
+     1>Proyecto "C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\openglUpn\openglUpn.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Elber\Downloads\Glew and Glut\freeglut\include" /I"C:\Users\Elber\Downloads\Glew and Glut\glew-1.11.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\elber\documents\visual studio 2013\projects\openglupn\openglupn\main.cpp(55): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\elber\documents\visual studio 2013\projects\openglupn\openglupn\main.cpp(56): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\elber\documents\visual studio 2013\projects\openglupn\openglupn\main.cpp(57): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\Debug\openglUpn.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Elber\Downloads\Glew and Glut\glew-1.11.0\lib" /LIBPATH:"C:\Users\Elber\Downloads\Glew and Glut\freeglut\lib" freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\Debug\openglUpn.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\Debug\openglUpn.lib" /MACHINE:X86 Debug\Ajedrez.obj
+         Debug\main.obj
+         openglUpn.vcxproj -> C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\Debug\openglUpn.exe
+     1>Compilación del proyecto terminada "C:\Users\Elber\documents\visual studio 2013\Projects\openglUpn\openglUpn\openglUpn.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.98
