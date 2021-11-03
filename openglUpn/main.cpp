@@ -10,7 +10,7 @@
 double PI = 3.1415926535897932384626433832795;
 double rt_x = -15.0, rt_y = 0.0, rt_z = -15.0;
 //scal isometric
-double scal = 1.0 / 20.0;
+double scal = 1.0 / 100.0;
 double rt = 0.5;
 //start isometric
 double xx = 0.5, yy = -0.4, zz = 0.0;
@@ -60,7 +60,7 @@ void render(){
 	
 	//pintar ejemplo
 
-	Ajedrez::ejemplo(xx,yy,zz,scal);
+	//Ajedrez::ejemplo(xx,yy,zz,scal);
 
 	//pintar tablero
 
@@ -72,7 +72,7 @@ void render(){
 
 	//pintar peon
 	
-	//Ajedrez::peon(xx, yy, zz, scal);
+	Ajedrez::peon(xx, yy, zz, scal);
 
 	//pintar alfil
 
