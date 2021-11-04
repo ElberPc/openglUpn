@@ -72,7 +72,7 @@ void render(){
 
 	//pintar peon
 	
-	Ajedrez::peon(xx, yy, zz, scal);
+	//Ajedrez::peon(xx, yy, zz, scal);
 
 	//pintar alfil
 
