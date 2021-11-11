@@ -2090,11 +2090,11 @@ void bucle(double x, double y, double z,double va,double vz, int nv, double r, d
 	{
 		glBegin(GL_LINE_STRIP);
 		glColor3f(r, g, v);
-		glVertex3f(x - va, y + va, z - vz); // A
-		glVertex3f(x + va, y + va, z - vz); // B
-		glVertex3f(x + va, y - va, z - vz); // C
-		glVertex3f(x - va, y - va, z - vz); // D
-		glVertex3f(x - va, y + va, z - vz); // A
+		glTexCoord3f(x - va, y + va, z - vz); glVertex3f(x - va, y + va, z - vz); // A
+		glTexCoord3f(x + va, y + va, z - vz); glVertex3f(x + va, y + va, z - vz); // B
+		glTexCoord3f(x + va, y - va, z - vz); glVertex3f(x + va, y - va, z - vz); // C
+		glTexCoord3f(x - va, y - va, z - vz); glVertex3f(x - va, y - va, z - vz); // D
+		glTexCoord3f(x - va, y + va, z - vz); glVertex3f(x - va, y + va, z - vz); // A
 		glEnd();
 
 		va += 0.001;
@@ -2111,11 +2111,11 @@ void borde(double x, double y, double z, double scal, int texture){
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glBegin(GL_POLYGON);
 	glColor3f(0.7, 0.7, 0.7);
-	glVertex3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); // A
-	glVertex3f(x + 103 * scal, y + 103 * scal, z - 2 * scal); // B
-	glVertex3f(x + 103 * scal, y - 103 * scal, z - 2 * scal); // C
-	glVertex3f(x - 103 * scal, y - 103 * scal, z - 2 * scal); // D
-	glVertex3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); // A
+	glTexCoord3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); glVertex3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); // A
+	glTexCoord3f(x + 103 * scal, y + 103 * scal, z - 2 * scal); glVertex3f(x + 103 * scal, y + 103 * scal, z - 2 * scal); // B
+	glTexCoord3f(x + 103 * scal, y - 103 * scal, z - 2 * scal); glVertex3f(x + 103 * scal, y - 103 * scal, z - 2 * scal); // C
+	glTexCoord3f(x - 103 * scal, y - 103 * scal, z - 2 * scal); glVertex3f(x - 103 * scal, y - 103 * scal, z - 2 * scal); // D
+	glTexCoord3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); glVertex3f(x - 103 * scal, y + 103 * scal, z - 2 * scal); // A
 	glEnd();
 	glDisable(GL_TEXTURE_2D);
 
@@ -2123,7 +2123,7 @@ void borde(double x, double y, double z, double scal, int texture){
 	double va = 103 * scal, vz = 2 * scal;
 
 	glEnable(GL_TEXTURE_2D);
-	glBindTexture(GL_TEXTURE_2D, ID_de_Textura5);
+	glBindTexture(GL_TEXTURE_2D, ID_de_Textura2);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	bucle(x, y, z, va, vz, 7, 0.7, 0.7, 0.7);
 	glDisable(GL_TEXTURE_2D);
@@ -2135,7 +2135,7 @@ void borde(double x, double y, double z, double scal, int texture){
 	glDisable(GL_TEXTURE_2D);
 
 	glEnable(GL_TEXTURE_2D);
-	glBindTexture(GL_TEXTURE_2D, ID_de_Textura5);
+	glBindTexture(GL_TEXTURE_2D, ID_de_Textura2);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	bucle(x, y, z, vag, vzg, 7, 0.7, 0.7, 0.7);
 	glDisable(GL_TEXTURE_2D);
@@ -2154,30 +2154,30 @@ void borde(double x, double y, double z, double scal, int texture){
 	{
 		glBegin(GL_LINE_STRIP);
 		glColor3f(1.0, 0.7, 0.7);
-		glVertex3f(x - vag, y + (vag - (60 * scal)), z - vzg); // D
-		glVertex3f(x - vag, y + vag, z - vzg); // A
-		glVertex3f(x - (vag - (60 * scal)), y + vag, z - vzg); // A
+		glTexCoord3f(x - vag, y + (vag - (60 * scal)), z - vzg); glVertex3f(x - vag, y + (vag - (60 * scal)), z - vzg); // D
+		glTexCoord3f(x - vag, y + vag, z - vzg); glVertex3f(x - vag, y + vag, z - vzg); // A
+		glTexCoord3f(x - (vag - (60 * scal)), y + vag, z - vzg); glVertex3f(x - (vag - (60 * scal)), y + vag, z - vzg); // A
 		glEnd();
 
 		glBegin(GL_LINE_STRIP);
 		glColor3f(1.0, 0.7, 0.7);
-		glVertex3f(x + (vag - (60 * scal)), y + vag, z - vzg); // A
-		glVertex3f(x + vag, y + vag, z - vzg); // B
-		glVertex3f(x + vag, y + (vag - (60 * scal)), z - vzg); // D
+		glTexCoord3f(x + (vag - (60 * scal)), y + vag, z - vzg); glVertex3f(x + (vag - (60 * scal)), y + vag, z - vzg); // A
+		glTexCoord3f(x + vag, y + vag, z - vzg); glVertex3f(x + vag, y + vag, z - vzg); // B
+		glTexCoord3f(x + vag, y + (vag - (60 * scal)), z - vzg); glVertex3f(x + vag, y + (vag - (60 * scal)), z - vzg); // D
 		glEnd();
 
 		glBegin(GL_LINE_STRIP);
 		glColor3f(1.0, 0.7, 0.7);
-		glVertex3f(x + (vag - (60 * scal)), y - vag, z - vzg); // A
-		glVertex3f(x + vag, y - vag, z - vzg); // C
-		glVertex3f(x + vag, y - (vag - (60 * scal)), z - vzg); // D
+		glTexCoord3f(x + (vag - (60 * scal)), y - vag, z - vzg); glVertex3f(x + (vag - (60 * scal)), y - vag, z - vzg); // A
+		glTexCoord3f(x + vag, y - vag, z - vzg); glVertex3f(x + vag, y - vag, z - vzg); // C
+		glTexCoord3f(x + vag, y - (vag - (60 * scal)), z - vzg); glVertex3f(x + vag, y - (vag - (60 * scal)), z - vzg); // D
 		glEnd();
 
 		glBegin(GL_LINE_STRIP);
 		glColor3f(1.0, 0.7, 0.7);
-		glVertex3f(x - (vag - (60 * scal)), y - vag, z - vzg); // A
-		glVertex3f(x - vag, y - vag, z - vzg); // D
-		glVertex3f(x - vag, y - (vag - (60 * scal)), z - vzg); // D
+		glTexCoord3f(x - (vag - (60 * scal)), y - vag, z - vzg); glVertex3f(x - (vag - (60 * scal)), y - vag, z - vzg); // A
+		glTexCoord3f(x - vag, y - vag, z - vzg); glVertex3f(x - vag, y - vag, z - vzg); // D
+		glTexCoord3f(x - vag, y - (vag - (60 * scal)), z - vzg); glVertex3f(x - vag, y - (vag - (60 * scal)), z - vzg); // D
 		glEnd();
 
 		vag += 0.001;
