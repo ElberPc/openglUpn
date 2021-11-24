@@ -821,351 +821,519 @@ void Ajedrez::peon(double x, double y, double z, double scal, int texture){
 
 //Marco
 void Ajedrez::reina(double x, double y, double z, double scal, int texture){
+	glEnable(GL_TEXTURE_2D);
+	texture == 0 ? glBindTexture(GL_TEXTURE_2D, ID_de_Textura1) : glBindTexture(GL_TEXTURE_2D, ID_de_Textura2);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-24.0 * scal, 24.0 * scal, 0.0 * scal);//a
-	glVertex3f(24.0 * scal, 24.0 * scal, 0.0 * scal);//b
-	glVertex3f(24.0 * scal, -24.0 * scal, 0.0 * scal);//c
-	glVertex3f(-24.0 * scal, -24.0 * scal, 0.0 * scal);//d
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.0);
-	glVertex3f(-24.0 * scal, 24.0 * scal, 0.0 * scal);//a
-	glVertex3f(24.0 * scal, 24.0 * scal, 0.0 * scal);//b
-	glVertex3f(24.0 * scal, 24.0 * scal, 5.00 * scal);//b
-	glVertex3f(-24.0 * scal, 24.0 * scal, 5.00 * scal);//a
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);//b
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);//a
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(24.0 * scal, 24.0 * scal, 0.0 * scal);//b
-	glVertex3f(24.0 * scal, -24.0 * scal, 0.0 * scal);//c
-	glVertex3f(24.0 * scal, -24.0 * scal, 5.0 * scal);//c
-	glVertex3f(24.0 * scal, 24.0 * scal, 5.0 * scal);//b
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(24.0 * scal, -24.0 * scal, 0.0 * scal);//c
-	glVertex3f(-24.0 * scal, -24.0 * scal, 0.0 * scal);//d
-	glVertex3f(-24.0 * scal, -24.0 * scal, 5.0 * scal);//d
-	glVertex3f(24.0 * scal, -24.0 * scal, 5.0 * scal);//c
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
+	glTexCoord3f(x + -24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x + -24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-24.0 * scal, -24.0 * scal, 0.0 * scal);//d
-	glVertex3f(-24.0 * scal, 24.0 * scal, 0.0 * scal);//a
-	glVertex3f(-24.0 * scal, 24.0 * scal, 5.0 * scal);//a
-	glVertex3f(-24.0 * scal, -24.0 * scal, 5.0 * scal);//d
-	glEnd();
-
-	/////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-24.0 * scal, 24.0 * scal, 5.0 * scal);//a
-	glVertex3f(24.0 * scal, 24.0 * scal, 5.0 * scal);//b
-	glVertex3f(18.0 * scal, 18.0 * scal, 15.0 * scal);//f
-	glVertex3f(-18.0 * scal, 18.0 * scal, 15.0 * scal);//e
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(24.0 * scal, 24.0 * scal, 5.0 * scal);//b
-	glVertex3f(24.0 * scal, -24.0 * scal, 5.0 * scal);//c
-	glVertex3f(18.0 * scal, -18.0 * scal, 15.0 * scal);//g
-	glVertex3f(18.0 * scal, 18.0 * scal, 15.0 * scal);//f
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(24.0 * scal, -24.0 * scal, 5.0 * scal);//c
-	glVertex3f(-24.0 * scal, -24.0 * scal, 5.0 * scal);//d
-	glVertex3f(-18.0 * scal, -18.0 * scal, 15.0 * scal);//h
-	glVertex3f(18.0 * scal, -18.0 * scal, 15.0 * scal);//g
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-24.0 * scal, 24.0 * scal, 5.0 * scal);//a
-	glVertex3f(-24.0 * scal, -24.0 * scal, 5.0 * scal);//d
-	glVertex3f(-18.0 * scal, -18.0 * scal, 15.0 * scal);//h
-	glVertex3f(-18.0 * scal, 18.0 * scal, 15.0 * scal);//e
-	glEnd();
-
-	////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-18.0 * scal, 18.0 * scal, 15.0 * scal);//e
-	glVertex3f(18.0 * scal, 18.0 * scal, 15.0 * scal);//f
-	glVertex3f(15.0 * scal, 15.0 * scal, 55.0 * scal);//j
-	glVertex3f(-15.0 * scal, 15.0 * scal, 55.0 * scal);//i
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(18.0 * scal, 18.0 * scal, 15.0 * scal);//f
-	glVertex3f(18.0 * scal, -18.0 * scal, 15.0 * scal);//g
-	glVertex3f(15.0 * scal, -15.0 * scal, 55.0 * scal);//k
-	glVertex3f(15.0 * scal, 15.0 * scal, 55.0 * scal);//j
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-18.0 * scal, -18.0 * scal, 15.0 * scal);//h
-	glVertex3f(18.0 * scal, -18.0 * scal, 15.0 * scal);//g
-	glVertex3f(15.0 * scal, -15.0 * scal, 55.0 * scal);//k
-	glVertex3f(-15.0 * scal, -15.0 * scal, 55.0 * scal);//l
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-18.0 * scal, 18.0 * scal, 15.0 * scal);//e
-	glVertex3f(-18.0 * scal, -18.0 * scal, 15.0 * scal);//h
-	glVertex3f(-15.0 * scal, -15.0 * scal, 55.0 * scal);//l
-	glVertex3f(-15.0 * scal, 15.0 * scal, 55.0 * scal);//i
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//a
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
 	glEnd();
 
 	/////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(15.0 * scal, 15.0 * scal, 55.0 * scal);//j
-	glVertex3f(-15.0 * scal, 15.0 * scal, 55.0 * scal);//i
-	glVertex3f(-21.0 * scal, 21.0 * scal, 65.0 * scal);//i
-	glVertex3f(21.0 * scal, 21.0 * scal, 65.0 * scal);//j
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//a
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
+	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
+	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(15.0 * scal, 15.0 * scal, 55.0 * scal);//j
-	glVertex3f(15.0 * scal, -15.0 * scal, 55.0 * scal);//k
-	glVertex3f(21.0 * scal, -21.0 * scal, 65.0 * scal);//k
-	glVertex3f(21.0 * scal, 21.0 * scal, 65.0 * scal);//j
+	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
+	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
+	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-15.0 * scal, -15.0 * scal, 55.0 * scal);//l
-	glVertex3f(15.0 * scal, -15.0 * scal, 55.0 * scal);//k
-	glVertex3f(21.0 * scal, -21.0 * scal, 65.0 * scal);//k
-	glVertex3f(-21.0 * scal, -21.0 * scal, 65.0 * scal);//l
+	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
+	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
+	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-15.0 * scal, 15.0 * scal, 55.0 * scal);//i
-	glVertex3f(-15.0 * scal, -15.0 * scal, 55.0 * scal);//l
-	glVertex3f(-21.0 * scal, -21.0 * scal, 65.0 * scal);//l
-	glVertex3f(-21.0 * scal, 21.0 * scal, 65.0 * scal);//i
+	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, 5.0 * scal);//a
+	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, 5.0 * scal);
+	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, 5.0 * scal);//d
+	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, 15.0 * scal);//h
+	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, 15.0 * scal);//e
 	glEnd();
 
 	////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-21.0 * scal, 21.0 * scal, 65.0 * scal);//i
-	glVertex3f(21.0 * scal, 21.0 * scal, 65.0 * scal);//j
-	glVertex3f(21.0 * scal, 21.0 * scal, 70.0 * scal);//j
-	glVertex3f(-21.0 * scal, 21.0 * scal, 70.0 * scal);//i
+	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
+	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//j
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//i
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(21.0 * scal, -21.0 * scal, 65.0 * scal);//k
-	glVertex3f(21.0 * scal, 21.0 * scal, 65.0 * scal);//j
-	glVertex3f(21.0 * scal, 21.0 * scal, 70.0 * scal);//j
-	glVertex3f(21.0 * scal, -21.0 * scal, 70.0 * scal);//k
+	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
+	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//k
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(21.0 * scal, -21.0 * scal, 65.0 * scal);//k
-	glVertex3f(-21.0 * scal, -21.0 * scal, 65.0 * scal);//l
-	glVertex3f(-21.0 * scal, -21.0 * scal, 70.0 * scal);//l
-	glVertex3f(21.0 * scal, -21.0 * scal, 70.0 * scal);//k
+	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
+	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//k
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//l
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-21.0 * scal, -21.0 * scal, 65.0 * scal);//l
-	glVertex3f(-21.0 * scal, 21.0 * scal, 65.0 * scal);//i
-	glVertex3f(-21.0 * scal, 21.0 * scal, 70.0 * scal);//i
-	glVertex3f(-21.0 * scal, -21.0 * scal, 70.0 * scal);//l
+	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
+	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
+	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
 	glEnd();
 
 	/////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(21.0 * scal, 21.0 * scal, 70.0 * scal);//j
-	glVertex3f(-21.0 * scal, 21.0 * scal, 70.0 * scal);//i
-	glVertex3f(-15.0 * scal, 15.0 * scal, 75.0 * scal);//i
-	glVertex3f(15.0 * scal, 15.0 * scal, 75.0 * scal);//j
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//j
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(21.0 * scal, 21.0 * scal, 70.0 * scal);//j
-	glVertex3f(21.0 * scal, -21.0 * scal, 70.0 * scal);//k
-	glVertex3f(15.0 * scal, -15.0 * scal, 75.0 * scal);//k
-	glVertex3f(15.0 * scal, 15.0 * scal, 75.0 * scal);//j
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//j
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-21.0 * scal, -21.0 * scal, 70.0 * scal);//l
-	glVertex3f(21.0 * scal, -21.0 * scal, 70.0 * scal);//k
-	glVertex3f(15.0 * scal, -15.0 * scal, 75.0 * scal);//k
-	glVertex3f(-15.0 * scal, -15.0 * scal, 75.0 * scal);//l
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-21.0 * scal, 21.0 * scal, 70.0 * scal);//i
-	glVertex3f(-21.0 * scal, -21.0 * scal, 70.0 * scal);//l
-	glVertex3f(-15.0 * scal, -15.0 * scal, 75.0 * scal);//l
-	glVertex3f(-15.0 * scal, 15.0 * scal, 75.0 * scal);//i
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
 	glEnd();
 
 	////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-15.0 * scal, 15.0 * scal, 75.0 * scal);//i
-	glVertex3f(15.0 * scal, 15.0 * scal, 75.0 * scal);//j
-	glVertex3f(19.0 * scal, 19.0 * scal, 90.0 * scal);//j
-	glVertex3f(-19.0 * scal, 19.0 * scal, 90.0 * scal);//i
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(15.0 * scal, -15.0 * scal, 75.0 * scal);//k
-	glVertex3f(15.0 * scal, 15.0 * scal, 75.0 * scal);//j
-	glVertex3f(19.0 * scal, 19.0 * scal, 90.0 * scal);//j
-	glVertex3f(19.0 * scal, -19.0 * scal, 90.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(15.0 * scal, -15.0 * scal, 75.0 * scal);//k
-	glVertex3f(-15.0 * scal, -15.0 * scal, 75.0 * scal);//l
-	glVertex3f(-19.0 * scal, -19.0 * scal, 90.0 * scal);//l
-	glVertex3f(19.0 * scal, -19.0 * scal, 90.0 * scal);//k
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 0.1, 0.1);
-	glVertex3f(-15.0 * scal, -15.0 * scal, 75.0 * scal);//l
-	glVertex3f(-15.0 * scal, 15.0 * scal, 75.0 * scal);//i
-	glVertex3f(-19.0 * scal, 19.0 * scal, 90.0 * scal);//i
-	glVertex3f(-19.0 * scal, -19.0 * scal, 90.0 * scal);//l
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
+	glEnd();
+
+	/////////////////////////////////////////////////////////
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
+	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
+	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
+	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
+	glEnd();
+
+	////////////////////////////////////////////////////////
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
+	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
+	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.1, 0.1, 0.1);
+	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
+	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
+	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
+	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
 	glEnd();
 
 	//////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(19.0 * scal, 19.0 * scal, 90.0 * scal);//j
-	glVertex3f(-19.0 * scal, 19.0 * scal, 90.0 * scal);//i
-	glVertex3f(-10.0 * scal, 10.0 * scal, 90.0 * scal);//i
-	glVertex3f(10.0 * scal, 10.0 * scal, 90.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(19.0 * scal, 19.0 * scal, 90.0 * scal);//j
-	glVertex3f(19.0 * scal, -19.0 * scal, 90.0 * scal);//k
-	glVertex3f(10.0 * scal, -10.0 * scal, 90.0 * scal);//k
-	glVertex3f(10.0 * scal, 10.0 * scal, 90.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(-19.0 * scal, -19.0 * scal, 90.0 * scal);//l
-	glVertex3f(19.0 * scal, -19.0 * scal, 90.0 * scal);//k
-	glVertex3f(10.0 * scal, -10.0 * scal, 90.0 * scal);//k
-	glVertex3f(-10.0 * scal, -10.0 * scal, 90.0 * scal);//l
+	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(-19.0 * scal, 19.0 * scal, 90.0 * scal);//i
-	glVertex3f(-19.0 * scal, -19.0 * scal, 90.0 * scal);//l
-	glVertex3f(-10.0 * scal, -10.0 * scal, 90.0 * scal);//l
-	glVertex3f(-10.0 * scal, 10.0 * scal, 90.0 * scal);//i
+	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
 	glEnd();
 
 	//////////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(-10.0 * scal, 10.0 * scal, 90.0 * scal);//i
-	glVertex3f(10.0 * scal, 10.0 * scal, 90.0 * scal);//j
-	glVertex3f(10.0 * scal, 10.0 * scal, 95.0 * scal);//j
-	glVertex3f(-10.0 * scal, 10.0 * scal, 95.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(10.0 * scal, -10.0 * scal, 90.0 * scal);//k
-	glVertex3f(10.0 * scal, 10.0 * scal, 90.0 * scal);//j
-	glVertex3f(10.0 * scal, 10.0 * scal, 95.0 * scal);//j
-	glVertex3f(10.0 * scal, -10.0 * scal, 95.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(10.0 * scal, -10.0 * scal, 90.0 * scal);//k
-	glVertex3f(-10.0 * scal, -10.0 * scal, 90.0 * scal);//l
-	glVertex3f(-10.0 * scal, -10.0 * scal, 95.0 * scal);//l
-	glVertex3f(10.0 * scal, -10.0 * scal, 95.0 * scal);//k
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(0.1, 1.1, 0.1);
-	glVertex3f(-10.0 * scal, -10.0 * scal, 90.0 * scal);//l
-	glVertex3f(-10.0 * scal, 10.0 * scal, 90.0 * scal);//i
-	glVertex3f(-10.0 * scal, 10.0 * scal, 95.0 * scal);//i
-	glVertex3f(-10.0 * scal, -10.0 * scal, 95.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
 	glEnd();
 
 	//////////////////////////////////////////////////////////////
 
 	glBegin(GL_POLYGON);
 	glColor3f(1.1, 1.1, 0.1);
-	glVertex3f(10.0 * scal, 10.0 * scal, 95.0 * scal);//j
-	glVertex3f(-10.0 * scal, 10.0 * scal, 95.0 * scal);//i
-	glVertex3f(-0.0 * scal, 0.0 * scal, 95.0 * scal);//i
-	glVertex3f(0.0 * scal, 0.0 * scal, 95.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
+	glTexCoord3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//i
+	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(1.1, 1.1, 0.1);
-	glVertex3f(10.0 * scal, 10.0 * scal, 95.0 * scal);//j
-	glVertex3f(10.0 * scal, -10.0 * scal, 95.0 * scal);//k
-	glVertex3f(0.0 * scal, -0.0 * scal, 95.0 * scal);//k
-	glVertex3f(0.0 * scal, 0.0 * scal, 95.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
+	glTexCoord3f(x + 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//k
+	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//j
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(1.1, 1.1, 0.1);
-	glVertex3f(-10.0 * scal, -10.0 * scal, 95.0 * scal);//l
-	glVertex3f(10.0 * scal, -10.0 * scal, 95.0 * scal);//k
-	glVertex3f(0.0 * scal, 0.0 * scal, 95.0 * scal);//k
-	glVertex3f(-0.0 * scal, -0.0 * scal, 95.0 * scal);//l
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
+	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
+	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//k
+	glTexCoord3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//l
 	glEnd();
 
 	glBegin(GL_POLYGON);
 	glColor3f(1.1, 1.1, 0.1);
-	glVertex3f(-10.0 * scal, 10.0 * scal, 95.0 * scal);//i
-	glVertex3f(-10.0 * scal, -10.0 * scal, 95.0 * scal);//l
-	glVertex3f(-0.0 * scal, -0.0 * scal, 95.0 * scal);//l
-	glVertex3f(-0.0 * scal, 0.0 * scal, 95.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
+	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
+	glTexCoord3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//l
+	glTexCoord3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
+	glVertex3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//i
 	glEnd();
+	glDisable(GL_TEXTURE_2D);
 
 };
 
@@ -2061,11 +2229,12 @@ void Ajedrez::caballo(double x, double y, double z, double scal, int texture){
 
 };
 
-
+//render textures
 void Ajedrez::initrender(){
 	initRendering();
 }
 
+//board
 void cuadrado(double x, double y, double z, double scal, int texture){
 	glEnable(GL_TEXTURE_2D);
 	texture == 0 ? glBindTexture(GL_TEXTURE_2D, ID_de_Textura1) : glBindTexture(GL_TEXTURE_2D, ID_de_Textura2);
