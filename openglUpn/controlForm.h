@@ -276,7 +276,7 @@ namespace openglUpn {
 			this->panel2->Controls->Add(this->button2);
 			this->panel2->Location = System::Drawing::Point(2, 153);
 			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(175, 278);
+			this->panel2->Size = System::Drawing::Size(186, 278);
 			this->panel2->TabIndex = 6;
 			// 
 			// button6

@@ -43,7 +43,6 @@ void specialKeys(int key, int x, int y){
 }
 
 
-
 //timer 
 void timerChess(int value){
 	//Button green

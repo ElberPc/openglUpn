@@ -825,516 +825,230 @@ void Ajedrez::reina(double x, double y, double z, double scal, int texture){
 	texture == 0 ? glBindTexture(GL_TEXTURE_2D, ID_de_Textura1) : glBindTexture(GL_TEXTURE_2D, ID_de_Textura2);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x, y, z); glVertex3f(x, y, z);
+	glTexCoord3f(x, y + 24 * scal, z); glVertex3f(x, y + 24 * scal, z);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z); glVertex3f(x - 24 * scal, y + 24 * scal, z);
+	glTexCoord3f(x - 24 * scal, y, z); glVertex3f(x - 24 * scal, y, z);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.0);
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);//b
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.00 * scal);//a
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x, y, z + 5 * scal); glVertex3f(x, y, z + 5 * scal);
+	glTexCoord3f(x, y + 24 * scal, z + 5 * scal); glVertex3f(x, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z + 5 * scal); glVertex3f(x - 24 * scal, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y, z + 5 * scal); glVertex3f(x - 24 * scal, y, z + 5 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//b
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x, y, z); glVertex3f(x, y, z);
+	glTexCoord3f(x, y, z + 5 * scal); glVertex3f(x, y, z + 5 * scal);
+	glTexCoord3f(x, y + 24 * scal, z + 5 * scal); glVertex3f(x, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x, y + 24 * scal, z); glVertex3f(x, y + 24 * scal, z);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//c
-	glTexCoord3f(x + -24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x + -24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x, y + 24 * scal, z + 5 * scal); glVertex3f(x, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z + 5 * scal); glVertex3f(x - 24 * scal, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z); glVertex3f(x - 24 * scal, y + 24 * scal, z);
+	glTexCoord3f(x, y + 24 * scal, z); glVertex3f(x, y + 24 * scal, z);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 0.0 * scal);//d
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 0.0 * scal);//a
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//a
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
-	glEnd();
-
-	/////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//a
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
-	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
-	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z + 5 * scal); glVertex3f(x - 24 * scal, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y, z + 5 * scal); glVertex3f(x - 24 * scal, y, z + 5 * scal);
+	glTexCoord3f(x - 24 * scal, y, z); glVertex3f(x - 24 * scal, y, z);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z); glVertex3f(x - 24 * scal, y + 24 * scal, z);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y + 24.0 * scal, z + 5.0 * scal);//b
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
-	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
-	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 24 * scal, y, z); glVertex3f(x - 24 * scal, y, z);
+	glTexCoord3f(x - 24 * scal, y, z + 5 * scal); glVertex3f(x - 24 * scal, y, z + 5 * scal);
+	glTexCoord3f(x, y, z + 5 * scal); glVertex3f(x, y, z + 5 * scal);
+	glTexCoord3f(x, y, z); glVertex3f(x, y, z);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x + 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//c
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, z + 5.0 * scal);//d
-	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
-	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x, y, z + 5 * scal); glVertex3f(x, y, z + 5 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x, y + 24 * scal, z + 5 * scal); glVertex3f(x, y + 24 * scal, z + 5 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 24.0 * scal, y + 24.0 * scal, 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y + 24.0 * scal, 5.0 * scal);//a
-	glTexCoord3f(x - 24.0 * scal, y - 24.0 * scal, 5.0 * scal);
-	glVertex3f(x - 24.0 * scal, y - 24.0 * scal, 5.0 * scal);//d
-	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, 15.0 * scal);//h
-	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, 15.0 * scal);//e
-	glEnd();
-
-	////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
-	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//j
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//i
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x, y + 24 * scal, z + 5 * scal); glVertex3f(x, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z + 5 * scal); glVertex3f(x - 24 * scal, y + 24 * scal, z + 5 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//f
-	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//k
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 55.0 * scal);//j
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 24 * scal, y + 24 * scal, z + 5 * scal); glVertex3f(x - 24 * scal, y + 24 * scal, z + 5 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x - 24 * scal, y, z + 5 * scal); glVertex3f(x - 24 * scal, y, z + 5 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
-	glTexCoord3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x + 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//g
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//k
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 55.0 * scal);//l
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 24 * scal, y, z + 5 * scal); glVertex3f(x - 24 * scal, y, z + 5 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x, y, z + 5 * scal); glVertex3f(x, y, z + 5 * scal);
+	glEnd();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	glBegin(GL_POLYGON);
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 15 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y + 18.0 * scal, z + 15.0 * scal);//e
-	glTexCoord3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);
-	glVertex3f(x - 18.0 * scal, y - 18.0 * scal, z + 15.0 * scal);//h
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
-	glEnd();
-
-	/////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//j
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 15 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//j
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//k
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 15 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 15 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//k
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 15 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 15 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 15 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 25.0 * scal);//i
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 25.0 * scal);//l
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
-	glEnd();
-
-	////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
+	glColor3f(0.5, 0.5, 0.5);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 2 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 2 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 45 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//j
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 2 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 23 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 45 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//k
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 45 * scal);
+	glTexCoord3f(x - 23 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 23 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 45 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 35.0 * scal);//l
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 35.0 * scal);//i
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
-	glEnd();
-
-	/////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glColor3f(0.6, 0.6, 0.6);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 45 * scal);
+	glTexCoord3f(x - 23 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 2 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 45 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 45 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//j
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 2 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 55 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 55 * scal);
+	glTexCoord3f(x - 2 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 23 * scal, z + 50 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
-	glTexCoord3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x + 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//k
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 2 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 55 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 55 * scal);
+	glTexCoord3f(x - 23 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 23 * scal, z + 50 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y + 21.0 * scal, z + 40.0 * scal);//i
-	glTexCoord3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);
-	glVertex3f(x - 21.0 * scal, y - 21.0 * scal, z + 40.0 * scal);//l
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
-	glEnd();
-
-	////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
-	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 23 * scal, y + 23 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 23 * scal, z + 50 * scal);
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 55 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 55 * scal);
+	glTexCoord3f(x - 23 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 2 * scal, z + 50 * scal);
 	glEnd();
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
-	glTexCoord3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//j
-	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glColor3f(0.7, 0.7, 0.7);
+	glTexCoord3f(x - 23 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 23 * scal, y + 2 * scal, z + 50 * scal);
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 55 * scal);
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 55 * scal);
+	glTexCoord3f(x - 2 * scal, y + 2 * scal, z + 50 * scal); glVertex3f(x - 2 * scal, y + 2 * scal, z + 50 * scal);
 	glEnd();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////BASE
 
 	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x + 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//k
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
-	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
+	glTexCoord3f(x - 19 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 5 * scal, z + 55 * scal);//C
+	glTexCoord3f(x - 5 * scal, y + 5 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 5 * scal, z + 55 * scal);//A
+	glTexCoord3f(x - 5 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 5 * scal, y + 19 * scal, z + 55 * scal);//B
+	glTexCoord3f(x - 19 * scal, y + 19 * scal, z + 55 * scal); glVertex3f(x - 19 * scal, y + 19 * scal, z + 55 * scal);//D
 	glEnd();
 
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 0.1, 0.1);
-	glTexCoord3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y - 15.0 * scal, z + 45.0 * scal);//l
-	glTexCoord3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);
-	glVertex3f(x - 15.0 * scal, y + 15.0 * scal, z + 45.0 * scal);//i
-	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////CORONA
+
+	glBegin(GL_POLYGON);//corona
+	glTexCoord3f(x - 15 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 15 * scal, z + 55 * scal);//E
+	glTexCoord3f(x - 9 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 15 * scal, z + 55 * scal);//F
+	glTexCoord3f(x - 9 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 15 * scal, z + 60 * scal);//F
+	glTexCoord3f(x - 15 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 15 * scal, z + 60 * scal);//E
 	glEnd();
 
-	//////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
+	glBegin(GL_POLYGON);//corona
+	glTexCoord3f(x - 9 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 15 * scal, z + 55 * scal);//F
+	glTexCoord3f(x - 9 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 9 * scal, z + 55 * scal);//G
+	glTexCoord3f(x - 9 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 9 * scal, z + 60 * scal);//G
+	glTexCoord3f(x - 9 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 15 * scal, z + 60 * scal);//F
 	glEnd();
 
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
+	glBegin(GL_POLYGON);//corona
+	glTexCoord3f(x - 9 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 9 * scal, z + 55 * scal);//G
+	glTexCoord3f(x - 15 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 9 * scal, z + 55 * scal);//H
+	glTexCoord3f(x - 15 * scal, y + 9 * scal, z + 60 * scal); glVertex3f(x - 15 * scal, y + 9 * scal, z + 60 * scal);//H
+	glTexCoord3f(x - 9 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 9 * scal, z + 60 * scal);//G
 	glEnd();
 
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
+	glBegin(GL_POLYGON);//corona
+	glTexCoord3f(x - 15 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 15 * scal, z + 55 * scal);//E
+	glTexCoord3f(x - 15 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 9 * scal, z + 55 * scal);//H
+	glTexCoord3f(x - 15 * scal, y + 9 * scal, z + 60 * scal); glVertex3f(x - 15 * scal, y + 9 * scal, z + 60 * scal);//H
+	glTexCoord3f(x - 15 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 15 * scal, z + 60 * scal);//E
 	glEnd();
 
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y + 19.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 19.0 * scal, y - 19.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
+	glBegin(GL_POLYGON);//corona
+	glTexCoord3f(x - 9 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 15 * scal, z + 60 * scal);//F
+	glTexCoord3f(x - 15 * scal, y + 15 * scal, z + 55 * scal); glVertex3f(x - 15 * scal, y + 15 * scal, z + 60 * scal);//E
+	glTexCoord3f(x - 15 * scal, y + 9 * scal, z + 60 * scal); glVertex3f(x - 15 * scal, y + 9 * scal, z + 60 * scal);//H
+	glTexCoord3f(x - 9 * scal, y + 9 * scal, z + 55 * scal); glVertex3f(x - 9 * scal, y + 9 * scal, z + 60 * scal);//G
 	glEnd();
 
-	//////////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//j
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//k
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(0.1, 1.1, 0.1);
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 60.0 * scal);//l
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 60.0 * scal);//i
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
-	glEnd();
-
-	//////////////////////////////////////////////////////////////
-
-	glBegin(GL_POLYGON);
-	glColor3f(1.1, 1.1, 0.1);
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
-	glTexCoord3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//i
-	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//j
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(1.1, 1.1, 0.1);
-	glTexCoord3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//j
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
-	glTexCoord3f(x + 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//k
-	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//j
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(1.1, 1.1, 0.1);
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
-	glTexCoord3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//k
-	glTexCoord3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x + 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//k
-	glTexCoord3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//l
-	glEnd();
-
-	glBegin(GL_POLYGON);
-	glColor3f(1.1, 1.1, 0.1);
-	glTexCoord3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y + 10.0 * scal, z + 65.0 * scal);//i
-	glTexCoord3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 10.0 * scal, y - 10.0 * scal, z + 65.0 * scal);//l
-	glTexCoord3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 0.0 * scal, y - 0.0 * scal, z + 65.0 * scal);//l
-	glTexCoord3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);
-	glVertex3f(x - 0.0 * scal, y + 0.0 * scal, z + 65.0 * scal);//i
-	glEnd();
 	glDisable(GL_TEXTURE_2D);
-
 };
 
 //Naty

@@ -6,8 +6,7 @@
 #include<fstream>
 #include<assert.h>
 #include<ctime>
-//-0.01
-//double xTW = -0.28, yTW = -0.52, zTW = 0.0;
+
 
 void cuadrado(double x, double y, double z, double scal){
 	glBegin(GL_POLYGON);
@@ -65,6 +64,7 @@ void Engine::origin(double xx, double yy, double zz, double scal){
 	Ajedrez::peon(0.25, -0.38, zz, 1.0 / 270.0, 1);
 	Ajedrez::peon(-0.02, -0.38, zz, 1.0 / 270.0, 1);
 	Ajedrez::peon(0.11, -0.38, zz, 1.0 / 270.0, 1);
+
 	//pintar alfil
 	//white
 	Ajedrez::alfil(-0.15, 0.41, zz, 1.0 / 220.0, 0);
@@ -72,9 +72,12 @@ void Engine::origin(double xx, double yy, double zz, double scal){
 	//black
 	Ajedrez::alfil(-0.15, -0.52, zz, 1.0 / 220.0, 1);
 	Ajedrez::alfil(0.255, -0.52, zz, 1.0 / 220.0, 1);
-	//pintar reina
 
-	//Ajedrez::reina(xx, yy, zz, 1.0 / 270.0, 1);
+	//pintar reina
+	//white
+	Ajedrez::reina(-0.01, 0.415, zz, 1.0 / 220.0, 0);
+	//black
+	Ajedrez::reina(-0.01, -0.515, zz, 1.0 / 220.0, 1);
 
 	//pintar rey
 	//white

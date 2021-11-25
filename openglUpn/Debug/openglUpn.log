@@ -1,12 +1,1143 @@
-﻿Compilación iniciada a las 24/11/2021 05:09:a. m..
+﻿Compilación iniciada a las 24/11/2021 10:25:p. m..
      1>Proyecto "C:\Users\Elber\Desktop\ejemplo\openglUpn\openglUpn\openglUpn.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Elber\Downloads\Glew and Glut\freeglut\include" /I"C:\Users\Elber\Downloads\Glew and Glut\glew-1.11.0\include" /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ajedrez.cpp Engine.cpp
+         Ajedrez.cpp
+     1>Ajedrez.cpp(18): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(19): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(20): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(21): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(22): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(60): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(61): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(62): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(63): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(64): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(69): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(70): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(71): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(72): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(73): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(78): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(79): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(80): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(81): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(82): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(86): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(87): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(88): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(89): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(90): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(94): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(95): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(96): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(97): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(98): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(102): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(103): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(104): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(105): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(106): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(111): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(112): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(113): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(114): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(115): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(119): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(120): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(121): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(122): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(123): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(127): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(128): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(129): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(130): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(131): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(135): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(136): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(137): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(138): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(139): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(144): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(145): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(146): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(147): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(148): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(153): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(154): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(155): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(156): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(157): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(162): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(163): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(164): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(165): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(166): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(170): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(171): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(172): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(173): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(174): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(178): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(179): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(180): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(181): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(182): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(186): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(187): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(188): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(189): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(190): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(196): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(197): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(198): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(199): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(200): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(205): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(206): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(207): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(208): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(209): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(213): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(214): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(215): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(216): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(217): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(221): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(222): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(223): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(224): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(225): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(229): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(230): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(231): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(232): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(233): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(242): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(243): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(244): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(245): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(246): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(250): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(251): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(252): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(253): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(254): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(258): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(259): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(260): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(261): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(262): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(266): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(267): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(268): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(269): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(270): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(275): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(276): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(277): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(278): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(279): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(283): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(284): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(285): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(286): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(287): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(291): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(292): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(293): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(294): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(295): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(299): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(300): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(301): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(302): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(303): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(308): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(309): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(310): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(311): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(312): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(316): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(317): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(318): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(319): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(320): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(324): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(325): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(326): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(327): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(328): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(332): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(333): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(334): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(335): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(336): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(341): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(342): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(343): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(344): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(345): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(346): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(347): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(351): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(352): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(353): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(354): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(355): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(356): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(357): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(361): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(362): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(363): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(364): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(365): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(366): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(367): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(371): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(372): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(373): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(374): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(375): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(376): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(377): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(382): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(383): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(384): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(385): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(386): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(390): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(391): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(392): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(393): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(394): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(398): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(399): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(400): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(401): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(402): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(406): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(407): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(408): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(409): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(410): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(414): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(415): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(416): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(417): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(418): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(422): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(423): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(424): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(425): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(426): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(430): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(431): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(432): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(433): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(434): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(438): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(439): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(440): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(441): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(442): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(446): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(447): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(448): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(449): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(450): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(454): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(455): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(456): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(457): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(458): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(462): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(463): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(464): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(465): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(466): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(470): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(471): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(472): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(473): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(474): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(478): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(479): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(480): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(481): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(482): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(486): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(487): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(488): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(489): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(490): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(494): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(495): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(496): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(497): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(498): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(502): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(503): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(504): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(505): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(506): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(510): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(511): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(512): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(513): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(514): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(518): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(519): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(520): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(521): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(522): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(526): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(527): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(528): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(529): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(530): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(534): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(535): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(536): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(537): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(538): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(542): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(543): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(544): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(545): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(546): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(550): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(551): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(552): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(553): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(554): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(558): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(559): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(560): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(561): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(562): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(566): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(567): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(568): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(569): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(570): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(583): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(584): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(585): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(586): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(587): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(592): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(593): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(594): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(595): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(596): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(601): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(602): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(603): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(604): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(605): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(609): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(610): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(611): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(612): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(613): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(617): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(618): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(619): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(620): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(621): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(625): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(626): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(627): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(628): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(629): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(634): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(635): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(636): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(637): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(638): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(642): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(643): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(644): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(645): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(646): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(650): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(651): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(652): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(653): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(654): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(658): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(659): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(660): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(661): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(662): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(667): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(668): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(669): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(670): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(671): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(676): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(677): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(678): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(679): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(680): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(685): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(686): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(687): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(688): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(689): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(693): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(694): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(695): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(696): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(697): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(701): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(702): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(703): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(704): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(705): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(709): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(710): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(711): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(712): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(713): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(718): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(719): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(720): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(721): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(722): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(727): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(728): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(729): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(730): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(731): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(736): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(737): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(738): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(739): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(740): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(744): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(745): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(746): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(747): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(748): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(752): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(753): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(754): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(755): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(756): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(760): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(761): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(762): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(763): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(764): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(769): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(770): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(771): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(772): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(773): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(778): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(779): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(780): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(781): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(782): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(787): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(788): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(789): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(790): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(791): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(795): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(796): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(797): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(798): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(799): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(803): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(804): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(805): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(806): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(807): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(811): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(812): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(813): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(814): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(815): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(828): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(829): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(830): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(831): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(832): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(836): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(837): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(838): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(839): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(840): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(844): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(845): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(846): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(847): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(848): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(852): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(853): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(854): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(855): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(856): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(860): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(861): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(862): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(863): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(864): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(868): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(869): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(870): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(871): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(872): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(876): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(877): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(878): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(879): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(880): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(884): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(885): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(886): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(887): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(888): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(892): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(893): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(894): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(895): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(896): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(900): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(901): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(902): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(903): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(904): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(910): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(911): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(912): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(913): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(914): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(918): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(919): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(920): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(921): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(922): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(926): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(927): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(928): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(929): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(930): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(934): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(935): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(936): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(937): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(938): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(943): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(944): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(945): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(946): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(950): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(951): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(952): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(953): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(954): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(958): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(959): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(960): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(961): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(962): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(966): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(967): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(968): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(969): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(970): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(974): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(975): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(976): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(977): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(978): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(982): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(983): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(984): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(985): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(986): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(990): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(991): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(992): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(993): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(994): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(998): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(999): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1000): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1001): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1002): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1008): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1009): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1010): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1011): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1017): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1018): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1019): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1020): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1024): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1025): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1026): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1027): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1031): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1032): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1033): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1034): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1038): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1039): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1040): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1041): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1045): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1046): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1047): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1048): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1061): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1062): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1063): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1064): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1065): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1069): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1070): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1071): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1072): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1073): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1077): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1078): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1079): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1080): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1081): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1085): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1086): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1087): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1088): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1089): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1093): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1094): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1095): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1096): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1097): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1101): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1102): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1103): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1104): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1105): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1109): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1110): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1111): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1112): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1113): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1117): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1118): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1119): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1120): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1121): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1125): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1126): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1127): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1128): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1129): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1133): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1134): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1135): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1136): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1137): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1141): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1142): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1143): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1144): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1145): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1149): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1150): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1151): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1152): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1153): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1157): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1158): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1159): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1160): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1161): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1165): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1166): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1167): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1168): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1169): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1174): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1175): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1176): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1177): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1181): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1182): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1183): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1184): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1185): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1189): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1190): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1191): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1192): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1193): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1197): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1198): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1199): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1200): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1201): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1205): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1206): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1207): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1208): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1209): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1213): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1214): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1215): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1216): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1217): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1221): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1222): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1223): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1224): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1225): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1229): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1230): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1231): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1232): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1233): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1238): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1239): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1240): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1241): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1245): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1246): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1247): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1248): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1249): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1253): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1254): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1255): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1256): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1257): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1261): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1262): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1263): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1264): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1265): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1269): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1270): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1271): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1272): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1273): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1277): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1278): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1279): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1280): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1281): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1285): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1286): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1287): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1288): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1289): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1293): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1294): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1295): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1296): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1297): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1301): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1302): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1303): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1304): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1305): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1309): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1310): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1311): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1312): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1313): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1317): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1318): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1319): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1320): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1321): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1325): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1326): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1327): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1328): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1329): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1333): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1334): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1335): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1336): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1337): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1341): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1342): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1343): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1344): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1345): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1350): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1351): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1352): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1353): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1357): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1358): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1359): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1360): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1361): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1365): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1366): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1367): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1368): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1369): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1373): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1374): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1375): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1376): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1377): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1381): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1382): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1383): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1384): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1385): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1389): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1390): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1391): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1392): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1393): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1397): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1398): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1399): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1400): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1401): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1413): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1414): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1415): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1416): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1417): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1424): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1425): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1426): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1427): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1428): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1432): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1433): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1434): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1435): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1436): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1440): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1441): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1442): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1443): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1444): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1448): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1449): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1450): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1451): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1452): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1456): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1457): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1458): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1459): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1460): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1467): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1468): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1469): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1470): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1471): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1478): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1479): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1480): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1481): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1482): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1486): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1487): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1488): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1489): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1490): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1494): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1495): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1496): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1497): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1498): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1502): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1503): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1504): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1505): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1506): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1512): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1513): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1514): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1515): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1516): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1523): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1524): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1525): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1526): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1527): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1531): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1532): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1533): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1534): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1535): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1539): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1540): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1541): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1542): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1543): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1547): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1548): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1549): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1550): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1551): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1555): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1556): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1557): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1558): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1559): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1565): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1566): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1567): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1568): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1569): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1576): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1577): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1578): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1579): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1580): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1584): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1585): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1586): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1587): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1588): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1593): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1594): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1595): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1596): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1597): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1601): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1602): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1603): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1604): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1605): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1611): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1612): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1613): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1614): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1615): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1621): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1622): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1623): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1624): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1625): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1630): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1631): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1632): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1633): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1634): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1638): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1639): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1640): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1641): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1642): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1646): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1647): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1648): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1649): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1650): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1657): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1658): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1659): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1660): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1661): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1665): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1666): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1667): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1668): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1669): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1673): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1674): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1675): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1676): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1677): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1681): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1682): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1683): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1684): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1685): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1690): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1691): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1692): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1693): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1694): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1698): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1699): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1700): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1701): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1702): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1715): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1716): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1717): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1718): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1719): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1724): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1725): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1726): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1727): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1728): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1733): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1734): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1735): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1736): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1737): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1741): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1742): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1743): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1744): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1745): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1749): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1750): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1751): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1752): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1753): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1757): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1758): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1759): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1760): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1761): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1766): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1767): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1768): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1769): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1770): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1774): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1775): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1776): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1777): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1778): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1782): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1783): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1784): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1785): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1786): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1790): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1791): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1792): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1793): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1794): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1799): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1800): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1801): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1802): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1803): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1836): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1837): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1838): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1839): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1840): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1844): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1845): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1846): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1847): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1848): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1853): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1854): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1855): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1856): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1857): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1861): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1862): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1863): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1864): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1865): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1869): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1870): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1871): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1872): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1873): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1877): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1878): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1879): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1880): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1881): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1885): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1886): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1887): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1888): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1889): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1893): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1894): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1895): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1896): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1897): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1898): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1899): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1903): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1904): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1905): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1906): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1907): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1908): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1909): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1913): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1914): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1915): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1916): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1917): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1918): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1919): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1923): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1924): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1925): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1926): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1927): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1928): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1929): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1933): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1934): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1935): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1936): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1937): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1938): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1939): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1957): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1958): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1959): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1960): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1961): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1975): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1976): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1977): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1978): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1979): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1980): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1996): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(1997): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1998): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(1999): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2000): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2001): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2039): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(2040): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2041): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2042): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2046): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(2047): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2048): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2049): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2053): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(2054): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2055): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2056): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2060): warning C4305: 'argumento' : truncamiento de 'double' a 'GLfloat'
+     1>Ajedrez.cpp(2061): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2062): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>Ajedrez.cpp(2063): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+         Generando código...
+         Omitiendo... (no se detectaron cambios relevantes)
+         Engine.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Elber\Downloads\Glew and Glut\freeglut\include" /I"C:\Users\Elber\Downloads\Glew and Glut\glew-1.11.0\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib controlForm.cpp
          controlForm.cpp
-     1>controlForm.cpp(164): warning C4305: 'argumento' : truncamiento de 'double' a 'GLclampf'
+     1>controlForm.cpp(163): warning C4305: 'argumento' : truncamiento de 'double' a 'GLclampf'
+     1>controlForm.cpp(168): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
      1>controlForm.cpp(169): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
      1>controlForm.cpp(170): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
-     1>controlForm.cpp(171): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Elber\Desktop\ejemplo\openglUpn\Debug\openglUpn.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Elber\Downloads\Glew and Glut\glew-1.11.0\lib" /LIBPATH:"C:\Users\Elber\Downloads\Glew and Glut\freeglut\lib" freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\openglUpn.controlForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Elber\Desktop\ejemplo\openglUpn\Debug\openglUpn.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Elber\Desktop\ejemplo\openglUpn\Debug\openglUpn.lib" /MACHINE:X86 Debug\Ajedrez.obj
          Debug\controlForm.obj
@@ -16,4 +1147,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:02.19
+Tiempo transcurrido 00:00:02.44
